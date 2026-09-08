@@ -1,6 +1,6 @@
 {
-  "version": "v3",
-  "url": "https://github.com/Manikandan03S/rule-distribution-poc/releases/download/v3/rules_v3.tar.gz",
-  "sha256": "bddcd5460808b3b6b7d84d23fc2581a5e4899a53937bd718932e4b4ea60d8b2a",
-  "generated_at": "2026-09-08T10:35:04Z"
+  "version": "v1",
+  "url": "https://github.com/Manikandan03S/rule-distribution-poc/releases/download/v1/rules_v1.tar.gz",
+  "sha256": "037fa1bde9554a3a6ae282291749ed98df686eb463421846adff6d1158ea7276",
+  "generated_at": "2026-09-08T10:46:17Z"
 }
