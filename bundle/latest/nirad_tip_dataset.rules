@@ -1,0 +1,7 @@
+alert ip any any -> any any (msg:"NIRAD TIP dataset IP match"; ip.dst; dataset:isset,nirad_tip_ips,type ip,load /etc/suricata/rules/threat_agent_sources/nirad_tip_ips.lst,memcap 16mb,hashsize 131072; sid:9001001; rev:1;)
+alert dns any any -> any any (msg:"NIRAD TIP dataset domain match"; dns.query; dataset:isset,nirad_tip_domains,type string,load /etc/suricata/rules/threat_agent_sources/nirad_tip_domains.lst,memcap 123mb,hashsize 1048576; sid:9001002; rev:1;)
+alert http any any -> any any (msg:"NIRAD TIP filemd5 match"; filemd5:/etc/suricata/rules/threat_agent_sources/nirad_tip_md5.lst; sid:9001003; rev:1;)
+alert http any any -> any any (msg:"NIRAD TIP filesha1 match"; filesha1:/etc/suricata/rules/threat_agent_sources/nirad_tip_sha1.lst; sid:9001004; rev:1;)
+alert http any any -> any any (msg:"NIRAD TIP filesha256 match"; filesha256:/etc/suricata/rules/threat_agent_sources/nirad_tip_sha256.lst; sid:9001005; rev:1;)
+alert http any any -> any any (msg:"NIRAD TIP dataset URL path match"; http.uri; dataset:isset,nirad_tip_url_paths,type string,load /etc/suricata/rules/threat_agent_sources/nirad_tip_url_paths.lst,memcap 17mb,hashsize 131072; sid:9001006; rev:1;)
+alert tls any any -> any any (msg:"NIRAD TIP dataset JA3 match"; ja3.hash; dataset:isset,nirad_tip_ja3,type md5,load /etc/suricata/rules/threat_agent_sources/nirad_tip_ja3.lst,memcap 16mb,hashsize 2048; sid:9001007; rev:1;)

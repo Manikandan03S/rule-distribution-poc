@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-15T12:55:20.010265Z",
+  "sources": {
+    "nirad_tip_dataset": {
+      "version": "1",
+      "sha256": "080d0056ef162c3a5bc3c8b98dfbdf43b35ac4745b6c624869df89642c27bef6",
+      "datasets": {
+        "nirad_tip_domains.lst": "05ec6524ff2e360a168123661756bb7e3cfaeec42360d82d94b276c261c8648b",
+        "nirad_tip_ips.lst": "46924dc8c1dbfccdac016d84b7230009f38395828c750a17931d1527f99a284d",
+        "nirad_tip_ja3.lst": "a953fc9b48f13f9074d0ef781e251c96c07d7bce508252dbdddf7a0341ec3ed5",
+        "nirad_tip_md5.lst": "7d091c2f0a4055dfe349ec958b3004b7a5c2410788f7bed1f49dd21fb7bf2c11",
+        "nirad_tip_sha1.lst": "0ba8047d7c9cc099573a5abe9e88a962e7a754d5417978b9b604b71924849b5e",
+        "nirad_tip_sha256.lst": "fffbd129e73b02439b705a209ef74219f4357a9e340e0a416e6b07426730ceaf",
+        "nirad_tip_url_paths.lst": "c33510b76fcc6182def3e03cefa31a64f0063377d12bf0ea9a2563b1a13e1641"
+      }
+    }
+  }
+}
