@@ -1,9 +1,14 @@
 {
-  "generated_at": "2026-09-15T10:23:42.437458Z",
+  "generated_at": "2026-09-15T11:56:21.366547Z",
   "sources": {
     "connectivity_test": {
       "version": "2",
       "sha256": "1e7a36eaed5e88dabc6ec816b9b371492a853d84307f2455a2dccd601a1d7d8e",
+      "datasets": {}
+    },
+    "sample_rule_e2e": {
+      "version": "1",
+      "sha256": "7f1ec986f6fefdb56ba556a8fe80403bc83b5f1b044c711abd627d110d558039",
       "datasets": {}
     }
   }
